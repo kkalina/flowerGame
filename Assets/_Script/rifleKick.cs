@@ -16,17 +16,17 @@ public class rifleKick : MonoBehaviour {
         if (Input.GetMouseButton(0))
         {
             this.transform.position = new Vector3(anchor.transform.position.x + (Random.value * intensity), anchor.transform.position.y + (Random.value * intensity), anchor.transform.position.z + (Random.value * intensity));
-            if (!this.GetComponent<AudioSource>().isPlaying) { 
-                this.GetComponent<AudioSource>().Play();
-            }
+            //if (!this.GetComponent<AudioSource>().isPlaying) { 
+            //    this.GetComponent<AudioSource>().Play();
+            //}
         }
         else
         {
             this.transform.position = anchor.transform.position;
-            if (this.GetComponent<AudioSource>().isPlaying)
-            {
-                this.GetComponent<AudioSource>().Stop();
-            }
+            //if (this.GetComponent<AudioSource>().isPlaying)
+            //{
+            //    this.GetComponent<AudioSource>().Stop();
+            //}
         }
     }
 }
