@@ -48,7 +48,7 @@ public class Objective1 : MonoBehaviour {
         }
 	}
 
-    void OnTriggerStay(Collision coll) {
+    void OnTriggerStay(Collider coll) {
 
     }
 }
