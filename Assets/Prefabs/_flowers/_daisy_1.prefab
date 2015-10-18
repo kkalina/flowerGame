@@ -46,7 +46,7 @@ GameObject:
   - 65: {fileID: 6515312}
   - 54: {fileID: 5489374}
   m_Layer: 0
-  m_Name: Daisy_1
+  m_Name: _daisy_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
