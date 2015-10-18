@@ -34,13 +34,13 @@ public class Objective1 : MonoBehaviour {
 	void Update () 
 	{
 		if (grabable == true) {
-            if (Input.GetMouseButtonDown(1) && !grabbing)
+            if (Input.GetMouseButtonDown(0) && !grabbing)
             {
                 //plant.SetActive(false);
                 dropped = false;
                 grabbing = true;
             }
-            else if (Input.GetMouseButtonDown(1)) {
+            else if (Input.GetMouseButtonDown(0)) {
                 plant.GetComponent<Rigidbody>().velocity = Vector3.zero;
                 grabbing = false;
                 dropped = true;
