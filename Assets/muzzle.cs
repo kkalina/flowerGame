@@ -4,6 +4,7 @@ using System.Collections;
 public class muzzle : MonoBehaviour {
 
     public GameObject muzzleFlare;
+    //public GameObject muzzleLight;
 
     public float frequency = 1f;
     private float lastOccruance = 0f;
@@ -21,8 +22,16 @@ public class muzzle : MonoBehaviour {
             {
                 GameObject flareInstance = Instantiate(muzzleFlare);
                 flareInstance.transform.position = this.transform.position;
+                //muzzleLight.GetComponent<Light>().enabled = true;
                 lastOccruance = Time.time;
             }
         }
+        /*
+        if (Time.time > lastOccruance + 0.02f)
+        {
+
+            muzzleLight.GetComponent<Light>().enabled = false;
+        }
+        */
 	}
 }
