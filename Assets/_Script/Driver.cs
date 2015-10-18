@@ -16,6 +16,7 @@ public class Driver : MonoBehaviour {
 
     void Start() {
         grabDriver = sphere.GetComponent<Objective1>();
+        grabDriver.plant.GetComponent<Light>().enabled = true;
     }
     //Pick a daisy
     //Water the flower (pick it up lol)
@@ -50,7 +51,8 @@ public class Driver : MonoBehaviour {
 
         //CHANGE THE THING WE CAN PICK UP
         else if (waterPlants) {
-            grabDriver.plant = GameObject.Find("flower02");
+            grabDriver.plant = GameObject.Find("_water_2");
+            grabDriver.plant.GetComponent<Light>().enabled = true;
             if (playAudio)
             {
                 //welcome.Play();
@@ -61,11 +63,13 @@ public class Driver : MonoBehaviour {
                 waterPlants = false;
                 //playAudio = true;
                 sunPlants = true;
+                grabDriver.dropped = false;
             }
         }
         else if (sunPlants)
         {
-            grabDriver.plant = GameObject.Find("flower02");
+            grabDriver.plant = GameObject.Find("_move_3");
+            grabDriver.plant.GetComponent<Light>().enabled = true;
             if (playAudio)
             {
                 //welcome.Play();
@@ -76,11 +80,14 @@ public class Driver : MonoBehaviour {
                 sunPlants = false;
                 //playAudio = true;
                 smellRoses = true;
+                grabDriver.dropped = false;
+
             }
         }
-        else if (sunPlants)
+        else if (smellRoses)
         {
-            grabDriver.plant = GameObject.Find("flower02");
+            grabDriver.plant = GameObject.Find("_smell_4");
+            grabDriver.plant.GetComponent<Light>().enabled = true;
             if (playAudio)
             {
                 //welcome.Play();
@@ -91,6 +98,7 @@ public class Driver : MonoBehaviour {
                 sunPlants = false;
                 //playAudio = true;
                 fightTrex = true;
+                grabDriver.dropped = false;
             }
         }
     }

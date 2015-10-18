@@ -33,11 +33,12 @@ public class Objective1 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
+        dropped = false;
 		if (grabable == true) {
             if (Input.GetMouseButtonDown(0) && !grabbing)
             {
-                //plant.SetActive(false);
-                dropped = false;
+                plant.GetComponent<Light>().enabled = false;
+                //dropped = false;
                 grabbing = true;
             }
             else if (Input.GetMouseButtonDown(0)) {
