@@ -41,6 +41,8 @@ public class Objective1 : MonoBehaviour {
                 grabbing = true;
             }
             else if (Input.GetMouseButtonDown(0)) {
+                Destroy(plant, 4f);
+                //plant.GetComponent<Collider>().enabled = false;
                 plant.GetComponent<Rigidbody>().velocity = Vector3.zero;
                 grabbing = false;
                 dropped = true;
