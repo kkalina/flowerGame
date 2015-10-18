@@ -20,6 +20,7 @@ public class bullet : MonoBehaviour {
         {
             GameObject hit = Instantiate(hitExplosion);
             hit.transform.position = this.transform.position;
+            hit.transform.rotation = this.transform.rotation;
             Destroy(this.gameObject);
         }
     }

@@ -1324,6 +1324,7 @@ GameObject:
   - 65: {fileID: 6501490}
   - 23: {fileID: 2339740}
   - 114: {fileID: 11417584}
+  - 114: {fileID: 11421740}
   m_Layer: 0
   m_Name: muzzle
   m_TagString: Untagged
@@ -2985,8 +2986,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164040}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .49000001, y: -.0299999993, z: 2.58999991}
+  m_LocalRotation: {x: .706099927, y: 0, z: 0, w: .708112299}
+  m_LocalPosition: {x: .470999986, y: -.0299999993, z: 2.59859991}
   m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 448750}
@@ -8382,6 +8383,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   muzzleFlare: {fileID: 132314, guid: a47212e5fe260ee40b2f3fe9ca191428, type: 2}
   frequency: .150000006
+--- !u!114 &11421740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f910bcc4740bc6f44b1b8d2f8f00b839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  frequency: .100000001
 --- !u!114 &11433660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8539,6 +8553,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sphere_of_influence: {fileID: 160358}
   plant: {fileID: 0}
+  hand: {fileID: 0}
+  grabbing: 0
 --- !u!114 &11482520
 MonoBehaviour:
   m_ObjectHideFlags: 1
