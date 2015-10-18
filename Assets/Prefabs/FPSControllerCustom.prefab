@@ -8313,6 +8313,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sphere_of_influence: {fileID: 100646}
   plant: {fileID: 0}
+  hand: {fileID: 150334}
+  grabbing: 0
 --- !u!114 &11498570
 MonoBehaviour:
   m_ObjectHideFlags: 1
