@@ -127,7 +127,7 @@ Prefab:
     - target: {fileID: 11421740, guid: f2e2ae63f35db1641b2841276b6ac737, type: 2}
       propertyPath: bullet
       value: 
-      objectReference: {fileID: 286370264}
+      objectReference: {fileID: 129536, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f2e2ae63f35db1641b2841276b6ac737, type: 2}
   m_IsPrefabParent: 0
@@ -173,6 +173,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -262,6 +266,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -369,6 +377,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -457,6 +469,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -502,6 +518,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -711,10 +731,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 41ba2a6f1d128f94eba95e5213a81254, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &286370264 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 129536, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-  m_PrefabInternal: {fileID: 1844086237}
 --- !u!4 &305432637 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -762,6 +778,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -807,6 +827,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -858,6 +882,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -908,6 +936,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -953,6 +985,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -1004,6 +1040,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -1053,6 +1093,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -1242,48 +1286,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_PrefabInternal: {fileID: 2069363363}
---- !u!1001 &829271405
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 462172, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 3.32490754
-      objectReference: {fileID: 0}
-    - target: {fileID: 462172, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 12.6261692
-      objectReference: {fileID: 0}
-    - target: {fileID: 462172, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -29.2198124
-      objectReference: {fileID: 0}
-    - target: {fileID: 462172, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 462172, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 462172, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 462172, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 462172, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &834004177
 Prefab:
   m_ObjectHideFlags: 0
@@ -1443,6 +1445,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -1484,6 +1490,10 @@ Prefab:
     - target: {fileID: 400000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -1535,6 +1545,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -1580,6 +1594,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -1627,6 +1645,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -1673,6 +1695,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -1718,6 +1744,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -1777,6 +1807,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 165926, guid: b15463e5d2d113b49b8edb6232a57580, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b15463e5d2d113b49b8edb6232a57580, type: 2}
   m_IsPrefabParent: 0
@@ -1826,6 +1860,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -1881,6 +1919,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -1927,6 +1969,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -1972,6 +2018,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -2165,6 +2215,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -2218,6 +2272,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -2328,6 +2386,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -2373,6 +2435,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -2513,6 +2579,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -2601,6 +2671,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -2651,6 +2725,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -2666,48 +2744,6 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_PrefabInternal: {fileID: 1653074198}
---- !u!1001 &1844086237
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 430740, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: .467299998
-      objectReference: {fileID: 0}
-    - target: {fileID: 430740, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: .768700004
-      objectReference: {fileID: 0}
-    - target: {fileID: 430740, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 2.75300002
-      objectReference: {fileID: 0}
-    - target: {fileID: 430740, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: .707106709
-      objectReference: {fileID: 0}
-    - target: {fileID: 430740, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 2.30404638e-07
-      objectReference: {fileID: 0}
-    - target: {fileID: 430740, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 2.30404638e-07
-      objectReference: {fileID: 0}
-    - target: {fileID: 430740, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -.707106829
-      objectReference: {fileID: 0}
-    - target: {fileID: 430740, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 3d5cec079bd70dc4a874ed91c21b418b, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1001 &1872431637
 Prefab:
   m_ObjectHideFlags: 0
@@ -2813,6 +2849,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -2867,6 +2907,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -2917,6 +2961,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -2963,6 +3011,10 @@ Prefab:
       propertyPath: m_Name
       value: Wood Fence (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
   m_IsPrefabParent: 0
@@ -3008,6 +3060,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
@@ -3174,6 +3230,10 @@ Prefab:
     - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
       propertyPath: m_Name
       value: Wood Fence (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d87651423700e44c28232f32ec099258, type: 2}
+      propertyPath: m_TagString
+      value: rex
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d87651423700e44c28232f32ec099258, type: 2}
