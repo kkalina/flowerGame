@@ -8395,6 +8395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 0}
+  bulletSoundObj: {fileID: 133316, guid: f1aa9e88a1407d14d98836452d4e9ed1, type: 2}
   frequency: .100000001
 --- !u!114 &11433660
 MonoBehaviour:
