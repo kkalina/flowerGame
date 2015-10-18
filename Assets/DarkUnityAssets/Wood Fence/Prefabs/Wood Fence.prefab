@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
+  - 65: {fileID: 6531550}
   m_Layer: 0
   m_Name: Wood Fence
   m_TagString: Untagged
@@ -72,6 +73,18 @@ MeshFilter:
 --- !u!1002 &3300001
 EditorExtensionImpl:
   serializedVersion: 6
+--- !u!65 &6531550
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.08154631, y: 2, z: .116448566}
+  m_Center: {x: 3.04077315, y: 1, z: .0026121065}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
