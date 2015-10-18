@@ -59,7 +59,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			m_MouseLook.Init(transform , m_Camera.transform);
 
             //Cursor.lockState = wantedMode;
-            Cursor.visible = false;
+            //Cursor.visible = false;
         }
 
 
