@@ -33,7 +33,7 @@ public class Driver : MonoBehaviour {
         //CHANGE THE THING WE CAN PICK UP
         else if (waterPlants) {
             grabDriver.plant = GameObject.Find("flower02");
-            grabDriver.grabable = true;
+            //grabDriver.grabable = true;
         }
 	}
 	
