@@ -6,10 +6,13 @@ public class Objective1 : MonoBehaviour {
 	public GameObject Sphere_of_influence;
 	bool grabable = false;
 	public GameObject plant;
+    public GameObject hand;
+    public bool grabbing = false;
 	
 	// Use this for initialization
 	void Start () 
 	{
+        //hand = transform.Find("the hand art").gameObject;
 	}
 	void OnTriggerEnter(Collider other)
 	{
@@ -30,8 +33,22 @@ public class Objective1 : MonoBehaviour {
 	void Update () 
 	{
 		if (grabable == true) {
-			if (Input.GetButtonDown("Submit"))
-				plant.SetActive(false);
-		}
+            if (Input.GetMouseButtonDown(1) && !grabbing)
+            {
+                //plant.SetActive(false);
+                grabbing = true;
+            }
+            else if (Input.GetMouseButtonDown(1)) {
+                plant.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                grabbing = false;
+            }
+        }
+        if (grabbing) {
+            plant.transform.position = Sphere_of_influence.transform.position + new Vector3(-.34f, .26f, 0);
+        }
 	}
+
+    void OnTriggerStay(Collision coll) {
+
+    }
 }
