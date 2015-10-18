@@ -44,7 +44,7 @@ public class Objective1 : MonoBehaviour {
             }
         }
         if (grabbing) {
-            plant.transform.position = Sphere_of_influence.transform.position + new Vector3(-.34f, .26f, 0);
+            plant.transform.position = Sphere_of_influence.transform.position; //+ new Vector3(-.34f, .26f, 0);
         }
 	}
 

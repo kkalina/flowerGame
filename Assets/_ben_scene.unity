@@ -682,7 +682,37 @@ Prefab:
       propertyPath: plant
       value: 
       objectReference: {fileID: 1255172858}
-    m_RemovedComponents: []
+    - target: {fileID: 8224038, guid: b489253906985ae4da22308376afc09e, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224038, guid: b489253906985ae4da22308376afc09e, type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224038, guid: b489253906985ae4da22308376afc09e, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8293532, guid: b489253906985ae4da22308376afc09e, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2367709315b8e1844a9a8f4d403a33f7, type: 3}
+    - target: {fileID: 8293532, guid: b489253906985ae4da22308376afc09e, type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8293532, guid: b489253906985ae4da22308376afc09e, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 150334, guid: b489253906985ae4da22308376afc09e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8210104, guid: b489253906985ae4da22308376afc09e, type: 2}
+    - {fileID: 11401046, guid: b489253906985ae4da22308376afc09e, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: b489253906985ae4da22308376afc09e, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &486748820
