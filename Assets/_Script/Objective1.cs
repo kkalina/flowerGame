@@ -17,7 +17,7 @@ public class Objective1 : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject == plant)
+		if (other.gameObject == plant) //Current Target
 		{
 			grabable = true;
 			
@@ -25,7 +25,7 @@ public class Objective1 : MonoBehaviour {
 	}
 	void OnTriggerExit(Collider other)
 	{
-		if (other.gameObject == plant)
+		if (other.gameObject == plant) //Current Target
 		{
 			grabable = false;
 		}
